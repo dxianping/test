@@ -1,0 +1,152 @@
+﻿@charset "utf-8";
+
+
+*{margin:0;padding:0;}
+body{font-family:"微软雅黑";font-size:12px;}
+
+ul{
+    padding: 0;
+    margin:0;
+}
+
+.container{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+.headerbg{
+	background: url(../images/header.jpg) no-repeat;
+    width: 1000px;
+    height: 90px;
+}
+.nav {
+    position: relative;
+    width:1000px;
+    height: 30px;
+    background: #ba2207;
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, .1);
+}
+.nav ul{
+	list-style: none;
+	margin: 0 auto;
+	padding-left: 20px;
+	margin-left: 10px;
+	float: left;
+}
+.nav ul li{
+	float: left;
+	-webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.nav ul li a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 18px;
+    color: #e6e2e7;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.nav ul li:hover > ul {
+    display: block;
+    padding-left: 0px;
+    z-index: 9999;
+    background: #d2543b;
+}
+
+.nav ul ul {
+        display: none;
+        background: #d2543b;
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, .1);
+	}
+.nav ul ul li {
+    float: none;
+    position: relative;
+    z-index: 9999;
+}
+
+.nav ul ul li a {
+    border-bottom: 1px solid #bc1d01;
+    text-align:center; 
+    width: auto;
+}
+
+.nav ul ul li ul li a {
+    border-bottom:none;
+    text-align:center; 
+    width: 160px;
+}
+
+
+.nav ul ul li a:hover{
+	background: #b7260c;
+    width: auto;
+ 
+}
+
+.nav ul li:hover > #max1 {
+    display: block;
+    padding-left:0px;
+    z-index: 9999;
+    background: #d2543b;
+    width: auto;
+    margin-left: -20px;
+    text-align: center;
+}
+#max1 a{
+    width: 160px;
+    text-align:center;
+}
+
+#max1 a:hover{
+    background: #b7260c;
+    width: auto!important;
+}
+
+   /*三级样式*/
+
+.nav ul li:hover ul li ul { 
+    display:none;
+}
+.nav ul li:hover ul li:hover ul{ 
+    display:block; 
+    width:180px; 
+    position:absolute; 
+    top:0px; 
+    left: 155px;
+    background-color:#d2543b;
+}
+.nav ul li:hover ul li:hover ul li { 
+    width:180px; 
+}
+.nav ul li:hover ul li:hover ul li a { 
+    display:block; 
+    text-align:center; 
+}
+.nav ul li:hover ul li:hover ul li a:hover { 
+    background-color:#b7260c;
+}
+
+.nav ul li:hover ul .nav_jw:hover ul{ 
+    display:block; 
+    width:180px; 
+    position:absolute; 
+    top:0px; 
+    left:-100px;
+    background-color:#d2543b;
+}
+
+.nav ul li:hover ul .nav_jw:hover ul li a { 
+    display:block; 
+    text-align:center; 
+}
+.nav ul li:hover ul .nav_jw:hover ul li a:hover { 
+    background-color:#b7260c;
+}
+/*| Navigation |  end   */

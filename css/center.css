@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+body, ul, dl, dd, dt, ol, li, p, h1, h2, h3, h4, h5, h6, textarea, form, select, fieldset, table, td, div, input {margin:0;padding:0;-webkit-text-size-adjust: none}
+h1, h2, h3, h4, h5, h6{font-size:12px;font-weight:normal}
+body>div{margin:0 auto}
+div {text-align:left}
+a img {border:0}
+body { color: #333; text-align: center; font: 12px "微软雅黑"; }
+ul, ol, li {list-style-type:none;vertical-align:0;margin: 0;padding: 0;}
+a {outline-style:none;color:#535353;text-decoration:none}
+a:hover { color: #D40000; text-decoration: none}
+.clear{height:0; overflow:hidden; clear:both}
+
+#banner_section0{margin-left:auto; margin-right:auto; width:300px;}
+#banner_section0 .flexslider{ width:300px; height:170px; float:left; position:relative;}
+#banner_section0 .flexslider .flex-direction-nav{ position:absolute; bottom:40px; left:0px;}
+#banner_section0 .flexslider .flex-direction-nav li{ float:left;margin-left: 20px;}
+#banner_section0{ height:170px; margin-bottom:7px;}
+
+
+#banner_section1{margin-left:auto; margin-right:auto; width:300px;}
+#banner_section1 .flexslider{ width:300px; height:170px; float:left; position:relative;}
+#banner_section1.flexslider .flex-direction-nav{ position:absolute; left:0px;}
+#banner_section1 .flexslider .flex-direction-nav li{ float:left;margin-left:20px;bottom: 80px;position: relative;}
+#banner_section1{ height:170px; margin-bottom:7px;}
+#banner_section1 .flexslider .flex-direction-nav .flex-first{left: 0;}
+
+ .flexslider .flex-direction-nav li a{ display:block; width:26px; height:36px; margin-right:3px; text-indent:-3000px; background-repeat:no-repeat; background-position:center;-moz-transition: background 200ms ease-in-out 0s;}
+ .flex-direction-nav .flex-next {background-image:url(../images/arrow-right@2x.png); opacity: 0;}
+ .flex-direction-nav .flex-prev {background-image:url(../images/arrow-left@2x.png);opacity: 0;}
+ .flexslider:hover .flex-next {opacity: 0.8; right: 5px;}
+ .flexslider:hover .flex-prev {opacity: 0.8; left: 5px;}
+ .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1;}
+ .flex-direction-nav .flex-disabled {opacity: .3!important; filter:alpha(opacity=30); cursor: default;}

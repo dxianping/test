@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+
+*{margin:0;padding:0;}
+body{font-family:"微软雅黑";font-size:12px;}
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.bg{
+	min-height: 1070px;
+	height: 1070px;
+	height:auto!important;
+	width: 1000px;
+}
+.content{
+	width: 1000px;
+	height: 655px;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+.left{
+	width: 775px;
+	height: 650px;
+	float: left;
+}
+.top{
+	width: 775px;
+	height: 250px;
+}
+.mid,.bot{
+	width: 775px;
+	height: 180px;
+	margin-top: 10px;
+}
+
+
+/*学院动态*/
+.trends{
+	width: 430px;
+	height: 250px;
+	float: left;
+	margin-left: 10px;
+}
+.t2{
+	width: 430px;
+	height: 30px;
+	background: url(../images/t2.jpg) no-repeat;
+}
+.t2 a{
+	margin-right: 10px;
+	float: right;
+	font-size: 16px;
+	color: #999999;
+	height: 25px;
+	line-height: 25px;
+	text-decoration: none;
+}
+
+.t2 a:hover,.t2 a:active{
+	color: red;
+	text-decoration: underline;
+}
+
+.news_box {
+    float: left;
+    width: 430px;
+    height: 210px;
+    text-align: left;
+}
+.dot{
+	float: left;
+}
+
+.news_box dd,.news_box1 dd,.news_box2 dd{
+    display: block;
+   	border-bottom: dotted 2px #999;
+    height: 27px;
+    line-height: 27px;
+}
+dd:hover {
+    background: #daeca9;
+}
+
+.news_box dd a,.news_box1 dd a,.news_box2 dd a  {
+    margin-left: 10px;
+    margin-right:20px;
+    float: left;
+    padding-left: 0px;
+    text-decoration: none;
+	color: #000;
+	font-size: 13px;
+    width: 320px;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.date{
+	float: right;
+	right: 0;
+	color: #999;
+}
+/*学院动态end*/
+.mes,.opus{
+	width: 775px;
+	height: 175px;
+	background: #eeeeee;
+	padding-top: 5px;
+	padding-left: 10px;
+	float: left;
+}
+h3 span{
+	font-size: 21px;
+	font-weight: 18px;
+	font-family: "宋体";
+	color:red;
+}
+
+.more{
+	color: #999;
+	font-size: 16px;
+	float: right;
+	margin-right: 20px;
+	height: 25px;
+	line-height: 25px;
+	text-decoration: none;
+	font-weight: 16px;
+}
+
+h3 span a:hover,h3 span a:active{
+	color: red;
+}
+
+.news_box1,.news_box2{
+	height: 160px;
+	width: 450px;
+	margin-top: 2px;
+	float: left;
+}
+
+.mes-pic,.opus-pic{
+	width: 285px;
+	height: 170px;
+	float: left;
+	margin-left: 20px;
+}
+
+.opus{
+	margin-top: 5px;
+}
+
+/*右栏*/
+.right{
+	width: 190px;
+	height: 650px;
+	float: left;
+	margin-left: 18px;
+}
+
+.btn1,.btn2,.btn3{
+	height: 40px;
+	background: url(../images/bg.png) no-repeat;
+	text-align: center;
+}
+
+.btn2,.btn3{
+	margin-top: 10px;
+	
+}
+
+.btn1 a,.btn3 a{
+	height: 40px;
+	line-height: 40px;
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn2 p{
+	height: 18px;
+	line-height: 18px;
+}
+.btn2 a{
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn1 a:hover,.btn1 a:active,
+.btn2 a:hover,.btn2 a:active,
+.btn3 a:hover,.btn3 a:active{
+	color: #000;
+}
+
+.contact{
+	margin-top: 20px;
+	margin-left: 2px;
+	width:182px;
+	height:136px;
+}
+
+.con-pic{
+	height: 36px;
+}
+
+.con-type{
+	background: #eee;
+	height: 100px;
+	width:182px;
+	padding-top: -3px;
+}
+
+.type1{
+	width: 162px;
+	height: 48px;
+	border-bottom: 2px dotted #999;
+	margin-left: 12px;
+}
+ .type2{
+ 	width: 182px;
+ 	height:50px;
+ 	margin-left: 12px;
+ }
+
+ .alumni{
+ 	margin-top: 15px;
+ }
+
+.an-list{
+	width: 182px;
+	margin-top: -3px;
+	background: #eee;
+	height: 80px;
+}
+
+ .an-list a p{
+ 	margin-left: 10px;
+    float: left;
+    padding-left: 0px;
+    text-decoration: none;
+	color: #000;
+	font-size: 13px;
+    width: 165px;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+ }
+
+.an-list p{
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+.an-list a span{
+	margin-right: 10px;
+	float: right;
+	color: #999;
+}
+
+.an-list a p:hover,.an-list a p:active{
+	color: red;
+}
+
+.link{
+	margin-top: 15px;
+}
+
+.link-list{
+	width: 182px;
+	margin-top: -3px;
+	background: #eee;
+	height: 153px;
+	text-align: center;
+}
+
+.link-list a{
+	text-decoration: none;
+	color: #000;
+}
+
+.link-list a:active,.link-list a:hover{
+	color: red;
+}
+
+.botDiv{
+		background:#eee;
+		width:920px; 
+		height:143px;
+		float: left;
+		margin-left: 30px;
+	}
+
+#gpic{
+	margin-left: 20px;
+}
+#gpic img{
+	margin-top: 12px;
+	margin-left: 15px;
+	width: 220px;
+	height: 120px;
+}/*轮播*/
+
+.footDiv{
+	background:#8e8e8e;
+	width: 1000px;
+	height:55px;
+	float: left;
+	margin-top: 20px;
+}
+
+.footDiv p{
+	text-align: center;
+	height: 55px;
+	line-height: 55px;
+	color: #fff;
+}

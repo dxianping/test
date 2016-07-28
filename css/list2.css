@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+
+*{margin:0;padding:0;}
+body{font-family:"微软雅黑";font-size:12px;}
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.title2-list ul{
+	text-align: center;
+	width: 700px;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.title2-list ul li{
+	width: 140px;
+	margin-left: 20px;
+	float: left;
+}
+
+.title2-list ul li img{
+	width: 140px;
+	height: 200px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.title2-list ul li a{
+	text-decoration: none;
+	color: #000;
+}
+
+.title2-list ul li a span{
+	margin-left: 20px;
+}
+
+.title2-list ul li a:hover,.title2-list ul li a:active{
+	color: red;
+}
+

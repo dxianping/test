@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport"   content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>音乐学院</title>
+    <link href="css/nav.css" rel="stylesheet"><!-- 导航栏以上内容样式 -->
+    <link href="css/index.css" rel="stylesheet"><!--内容样式-->
+    <link rel="stylesheet" href="css/style.css"/><!--头部轮播样式文件-->
+
+    <link rel="stylesheet" href="css/new-pic.css"/><!-- 图片新闻样式 -->
+    <script type="text/javascript" src="js/ie.js"></script><!-- 图片新闻js -->
+
+    <link rel="stylesheet" href="css/luara.left.css"/><!--左滑样式-->
+    <!--左滑js-->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.luara.0.0.1.min.js"></script>
+
+	<link href="css/pic.css" rel="stylesheet"><!--学术活动轮播样式-->
+	<script type="text/javascript" src="js/danrudanchu.js"></script><!--学术活动轮播js-->
+
+	<link rel="stylesheet" href="css/center.css" />
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/center.js"></script>
+
+	</head>
+
+	<body>
+		<div id="floatdiv" style="position:absolute;z-index:100">
+			<img src="images/float.gif" height="100px" width="200px">
+		</div>
+		<div class="container">
+			<div class="headerbg"></div>
+			<div class="nav clearfix">
+				<ul>
+	                <li><a href="#">学院首页</a></li>
+	                <li><a href="#">学院简介</a>
+	                    <ul id="max">
+	                        <li ><a href="#">学院简介</a></li>
+	                		<li ><a href="#">机构设置</a></li>
+	                		<li><a href="#">党政班子</a></li>
+	                		<li><a href="#">历任党政班子</a></li>
+	                		<li><a href="#">专任教师 </a></li>
+	                		<li><a href="#">行政教辅人员</a></li>
+	                    </ul>
+	                </li>
+	                <li><a href="#">党政思政</a>
+	                    <ul>
+	                        <li><a href="#">党的建设</a></li>
+	                		<li><a href="#">团的建设</a></li>
+	                		<li><a href="#">师德师风</a></li>
+	                		<li><a href="#">工会工作</a></li>
+	                    </ul>
+	                </li>
+	                <li><a href="#">教学工作</a>
+	                    <ul>
+	                        <li><a href="#">教学系</a></li>
+	                		<li><a href="#">专业建设</a></li>
+	                		<li><a href="#">课程建设</a></li>
+	                		<li><a href="#">教育培训</a></li>
+	                		<li><a href="#">考研工作</a></li>
+	                		<li><a href="#">实习见习</a></li>
+	                		<li><a href="#">教研活动</a></li>
+	                    </ul>
+	                </li>
+	                <li><a href="#">学术研究</a>
+	                    <ul>
+	                        <li><a href="#">学科建设</a></li>
+	                		<li><a href="#">学术交流</a></li>
+	                		<li><a href="#">学术成果</a></li>
+	                		<li><a href="#">培育项目</a></li>
+	                    </ul>
+	                </li>
+	                <li><a href="#">学生工作</a>
+	                    <ul>
+	                        <li><a href="#">学风建设</a></li>
+	                		<li><a href="#">学生社团</a></li>
+	                		<li><a href="#">奖助学贷</a></li>
+	                		<li><a href="#">招生就业</a></li>
+	                		<li><a href="#">安全教育</a></li>
+	                		<li><a href="#">对外交流</a></li>
+	                    </ul>
+	                </li>
+	                <li>
+	                	<a href="#">艺术实践</a>
+	                	<ul>
+	                		<li><a href="#">管理制度</a></li>
+	                		<li><a href="#">专业竞赛</a></li>
+	                		<li><a href="#">音乐会</a></li>
+	                		<li><a href="#">演出活动</a></li>
+	                	</ul>
+	                </li>
+	                <li><a href="#">合作办学</a>
+	                    <ul>
+	                        <li><a href="#">校企合作</a></li>
+	                		<li><a href="#">校地合作</a></li>
+	                		<li><a href="#">校校合作</a></li>
+	                		<li><a href="#">国际合作</a></li>
+	                    </ul>
+	                </li>
+	                <li>
+	                	<a href="#">下载中心</a>
+	                    <ul id="max1">
+	                        <li><a href="#">课表</a></li>
+	                		<li>
+	                			<a href="#">学生专区</a>
+	                			<ul id="max2">
+			                		<li><a href="#">学生请假条</a></li>
+			                	</ul>
+	                		</li>
+	                		<li>
+	                			<a href="#">教师专区</a>
+	                			<ul id="max3">
+			                		<li><a href="#">音乐厅使用申请表</a></li>
+			                		<li><a href="#">教职工请假条</a></li>
+			                	</ul>
+	                		</li>
+	                		<li><a href="#">音乐舞蹈精品资源</a></li>
+	                    </ul>
+	                </li>
+            	</ul>
+			</div>
+	    	<div class="bg">
+	    		<div id="banner"><!--淡出式式轮播-->
+					<a href="#" id="banner_info"></a><!-- 标题 -->
+						<div class="bag">
+							<ul id="list"></ul>  <!-- 点点 -->
+						</div>
+						<div id="banner_list">
+							<a href="#" target="_blank"><img src="images/1.jpg" title="1" alt="a1" /></a>
+							<a href="#" target="_blank"><img src="images/2.jpg" title="2" alt="a2" /></a>
+							<a href="#" target="_blank"><img src="images/3.jpg" title="3" alt="a3" /></a>
+							<a href="#" target="_blank"><img src="images/4.jpg" title="4" alt="a4" /></a>
+							<a href="#" target="_blank"><img src="images/3.jpg" title="5" alt="a5" /></a>
+							<a href="#" target="_blank"><img src="images/4.jpg" title="6" alt="a6" /></a>
+						</div>
+				</div><!-- / 淡出式式轮播 banner end -->
+	    		
+	    		<div class="content">
+	    			<div class="left">
+	    				<div class="top">
+		    				<div class="pic_news">
+		    					<img src="images/t1.jpg" />
+		    					<section id="rt-showcase-surround">
+								    <div id="rt-showcase" class="slider-container rt-overlay-dark">
+								        <div class="rt-container slider-container">
+								            <div class="rt-grid-12 rt-alpha rt-omega">
+								                
+								                <link rel="stylesheet" href="css/style.css">
+								                <!--[if IE]><link rel="stylesheet" href="css/ie.css"><![endif]-->
+								                <!--[if lte IE 9]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+
+								                <div class="csslider1 autoplay">
+								                    <input name="cs_anchor1" autocomplete="off" id="cs_slide1_0" type="radio" class="cs_anchor slide" >
+								                    <input name="cs_anchor1" autocomplete="off" id="cs_slide1_1" type="radio" class="cs_anchor slide" >
+								                    <input name="cs_anchor1" autocomplete="off" id="cs_slide1_2" type="radio" class="cs_anchor slide" >
+								                    <input name="cs_anchor1" autocomplete="off" id="cs_play1" type="radio" class="cs_anchor" checked>
+								                    <input name="cs_anchor1" autocomplete="off" id="cs_pause1" type="radio" class="cs_anchor" >
+								                    <ul>
+								                        <div style="width: 100%; visibility: hidden; font-size: 0px; line-height: 0;">
+								                            <img src="images/news-pic1.jpg" style="width: 100%;height:195px;">
+								                        </div>
+								                        <li class="num0 img">
+								                            <img src="images/news-pic1.jpg" alt="" title="座谈会" />
+								                        </li>
+								                        <li class="num1 img">
+								                            <img src="images/news-pic1.jpg" alt="" title="妇女节活动" />
+								                        </li>
+								                        <li class="num2 img">
+								                            <img src="images/news-pic1.jpg" alt="" title="座谈会" />
+								                        </li>
+								                    
+								                    </ul>
+								                    <div class="cs_description">
+								                        <label class="num0">
+								                            <span class="cs_title"><span class="cs_wrapper">座谈会座谈会座谈会座谈会</span></span>
+								                            
+								                        </label>
+								                        <label class="num1">
+								                            <span class="cs_title"><span class="cs_wrapper">妇女节活动</span></span>
+								                            
+								                        </label>
+								                        <label class="num2">
+								                            <span class="cs_title"><span class="cs_wrapper">座谈会</span></span>
+								                            
+								                        </label>
+								                    </div>
+								                    
+								                    <div class="cs_arrowprev">
+								                        <label class="num0" for="cs_slide1_0"></label>
+								                        <label class="num1" for="cs_slide1_1"></label>
+								                        <label class="num2" for="cs_slide1_2"></label>
+								                    </div>
+								                    <div class="cs_arrownext">
+								                        <label class="num0" for="cs_slide1_0"></label>
+								                        <label class="num1" for="cs_slide1_1"></label>
+								                        <label class="num2" for="cs_slide1_2"></label>
+								                    </div>
+								                </div>
+
+								            </div>
+								            <div class="clear"></div>
+								        </div>
+								    </div>
+								</section>		    
+							</div>
+
+							<div class="trends">
+								<div class="t2">
+									<a href="#">更多</a>
+								</div>
+		    					<div class="news_box">
+			                        <dl>
+			                            <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查莅临我校检查工作省教育厅春季开学督查莅临我校检查工作</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                           <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                            <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查莅临</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                           <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查莅临我校检查工作省教育厅春季开学督查莅临我校检查工作</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                            <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查莅临我校检查工作省教育厅春季开学督查莅临我校检查工作</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                           <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查莅临我校检查工作省教育厅春季开学督查莅临我校检查工作</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd><dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查莅临我校检查</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                        </dl>
+	                    		</div>
+		    				</div>
+	    				</div>
+	    				<!-- 学术活动与演出信息 -->
+	    				<div class="mid">
+	    					<div class="mes">
+ 								<div class="news_box1">
+ 									<h3>
+ 										<span >学术活动与演出信息<a  href="#"  class="more">更多</a></span>
+ 									</h3>
+			                        <dl>
+			                            <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查莅临我校检查工作省教育厅春季开学督查莅临我校检查工作</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                           <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                            <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查莅临</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                           <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查莅临我校检查工作省教育厅春季开学督查莅临我校检查工作</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                            <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查莅临我校检查工作省教育厅春季开学督查莅临我校检查工作</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                        </dl>
+	                    		</div>
+
+	                    		<div class="mes-pic">
+			    					<div id="banner_section0">
+										<div class="flexslider">
+											<ul class="slides">
+												<li> <img src="images/3.png" /></li>
+												<li> <img src="images/3.png" /></li>
+											</ul>
+										</div>
+	    							</div>
+	    						</div>
+	    					</div>
+	    				</div>
+
+	    				<!-- 我们的作品 -->
+	    				<div class="bot">
+	    					<div class="opus">
+ 								<div class="news_box2">
+ 									<h3>
+ 									<span >我们的作品<a  href="#"  class="more">更多</a></span>
+ 									</h3>
+			                        <dl>
+			                            <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查莅临我校检查工作省教育厅春季开学督查莅临我校检查工作</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                           <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                            <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查莅临</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                           <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查莅临我校检查工作省教育厅春季开学督查莅临我校检查工作</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                            <dd>
+			                            	<span class="dot"><img src="images/dotted.png"></span>
+			                                <a href="#">省教育厅春季开学督查莅临我校检查工作省教育厅春季开学督查莅临我校检查工作</a>
+			                                <span class="date">2015-01-18</span>
+			                            </dd>
+			                        </dl>
+	                    		</div>
+
+	                    		<div class="opus-pic">
+		 							<div id="banner_section1">
+										<div class="flexslider">
+											<ul class="slides">
+											<li> <img src="images/3.png" />
+											</li>
+											<li> <img src="images/3.png" />
+											</li>
+											<li> <img src="images/3.png" /> </li>
+											</ul>
+
+										</div>
+									</div>
+	    						</div>
+	    					</div>
+	    				</div>
+	    			</div>
+	    			<div class="right">
+	    				<div class="btn1">
+	    					<a href="#">韶关学院校园网</a>
+	    				</div>
+	    				<div class="btn2">
+	    					<a href="#">
+	    						<p>歌剧中心</p>
+	    						<p>（与北大歌剧研究院联办）</p>
+	    					</a>
+	    				</div>
+	    				<div class="btn3">
+	    					<a href="#">粤北音乐与舞蹈研究中心</a>
+	    				</div>
+
+	    				<div class="contact">
+	    					<div class="con-pic">
+	    						<img src="images/con-pic.jpg">
+	    					</div>
+	    					<div class="con-type">
+	    						<div class="type1">
+	    							<img src="images/yinfu.png">
+	    							<span>院长信箱</span>
+	    							<p>Nangaoyin12345@163.com</p>
+	    						</div>
+	    						<div class="type2">
+	    							<img src="images/yinfu.png">
+	    							<span>书记信箱</span>
+	    							<p>Nangaoyin12345@163.com</p>
+	    						</div>
+	    					</div>
+	    				</div>
+
+	    				<div class="alumni">
+	    					<div class="an-pic">
+	    						<img src="images/an-pic.jpg">
+	    					</div>
+	    					<div class="an-list">
+	    						<a href="#">
+	    							<p>林添海副书记、徐剑副校长林添海副书记、徐剑副校长</p>
+	    							<span class="date">2013/12/11</span>
+	    						</a>
+			                    
+	    						<a href="#">
+	    							<p>院（系）庆公告（一）</p>
+	    							<span class="date">2013/11/12</span>
+	    						</a>
+	    					</div>
+	    				</div>
+
+	    				<div class="link">
+	    					<div class="link-pic">
+	    						<img src="images/link-pic.jpg">
+	    					</div>
+	    					<div class="link-list">
+	    						<p>
+		    						<a href="#">
+		    							<span>北大歌剧研究院</span>
+		    						</a>
+	    						</p>
+			                    
+			                    <p>
+			                    	<a href="#">
+	    								<span>中央音乐学院</span>
+	    							</a>
+			                    </p>
+			                    <p>
+			                    	<a href="#">
+	    								<span>上海音乐学院</span>
+	    							</a>
+			                    </p>
+			                    <p>
+			                    	<a href="#">
+	    								<span>中国音乐学院</span>
+	    							</a>
+			                    </p>
+	    						
+	    						<P>
+	    							<a href="#">
+	    								<span>武汉音乐学院</span>
+	    							</a>
+	    						</P>
+	    						
+	    						<p>
+	    							<a href="#">
+	    								<span>四川音乐学院</span>
+	    							</a>
+	    						</p>
+	    						
+	    						<p>
+	    							<a href="#">
+	    								<span>天津音乐学院</span>
+	    							</a>	
+	    						</p>
+	    						
+	    						<p>
+	    							<a href="#">
+	    								<span>星海音乐学院</span>
+	    							</a>
+	    						</p>
+	    						<p>
+	    							<a href="#">
+	    								<span>华师音乐学院</span>
+	    							</a>
+	    						</p>
+	    						
+	    							
+	    					</div>
+	    				</div>
+	    			</div>		
+	    		</div>
+
+	    		<div class="botDiv">
+	            	<div id="gpic" style="overflow:hidden; width:880px; height:119px;">
+	                	<table border="0" align="center" cellpadding="0" cellspacing="0">
+		                    <tr>
+		                        <td id="gpic1" valign="top" align="center">
+		                            <table width="895" border="0" align='center' cellpadding="0" cellspacing="0">
+		                                <tr>
+		                                    <td> <a href="#" target="_blank"><img src="images/1@.png"/></a></td>
+		                                    <td> <a href="#" target="_blank"><img src="images/2@.png"/></a></td>
+		                                    <td> <a href="#" target="_blank"><img src="images/3@.png"/></a></td>
+		                                    <td> <a href="#" target="_blank"><img src="images/4@.png"/></a></td>
+		                                </tr>
+		                            </table>
+		                        </td>
+		                        <td id="gpic2" valign="top"></td>
+		                    </tr>
+	                	</table>
+	            	</div>
+            	</div>	
+            	
+	    	</div>
+	    	<div class="footDiv">
+	    		<p>@copyright&nbsp;2015&nbsp;韶关学院&nbsp;音乐学院 &nbsp;All rights reserved</p>
+	    	</div>		  
+		</div>
+			<script src="js/banner1.js"></script> <!-- 下部分往左滚动js  -->
+			<script>
+			    var img = document.getElementById("floatdiv");
+			    var x = 0,
+			        y = 0;
+			    var xSpeed = 2,
+			        ySpeed = 1;
+			    var w = document.body.clientWidth - 200,
+			        h = document.body.clientHeight - 100;
+
+			    function floatdiv() {
+			        if (x > w || x < 0) xSpeed = -xSpeed;
+			        if (y > h || y < 0) ySpeed = -ySpeed;
+
+			        x += xSpeed;
+			        y += ySpeed;
+
+			        img.style.top = y + "px";
+			        img.style.left = x + "px";
+			        setTimeout("floatdiv()", 100);
+			    }
+			    floatdiv();
+			</script> 
+	</body>
+</html>

@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+
+*{margin:0;padding:0;}
+body{font-family:"微软雅黑";font-size:12px;}
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.table-bg{
+	background: #e0e1d0;
+	height: 785px;
+	min-height: 785px;
+	height: auto!important;
+}
+
+.table-list{
+	width: 690px;
+	margin: 0 auto;
+	padding-top: 20px;
+	height: 300px;
+	min-height: 300px;
+	height: auto!important;	
+}
+
+.table-list dd{
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	display: block;
+}
+
+.table-list dd .dot{
+	margin-right: 10px;
+	float: left;
+	left: 0px;
+}
+
+.date1{
+	float: right;
+	margin-right: 20px;
+	padding-right: 20px;
+}
+.table-list dd:hover {
+    background: #daeca9;
+}
+
+.table-list dd a {
+    color: #666;
+    width:350px;
+    float: left;
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.pages{
+	text-align: center;
+}
+
+.pages a{
+	text-decoration: none;
+}
+
+.pages a:hover{
+	color: #a51f07;
+	background:#daeca9; 
+}
+
+.pages span{
+	margin-right: 10px;
+	color: #000;
+}
+
+.num1 a{
+	color: red;
+}
+
+
+.footDiv2{
+	background: #8e8e8e;
+    width: 1000px;
+    height: 55px;
+    float: left;
+}
+
+.footDiv2 p{
+	text-align: center;
+	height: 55px;
+	line-height: 55px;
+	color: #fff;
+}
